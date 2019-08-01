@@ -10,6 +10,7 @@ public class ExampleRest {
 
     @GetMapping
     public String getExample() {
+        System.out.println("example");
         return "example";
     }
 }
